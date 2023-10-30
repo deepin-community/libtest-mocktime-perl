@@ -1,5 +1,111 @@
-template-repository (1.0-1) unstable; urgency=medium
+libtest-mocktime-perl (0.17-2) unstable; urgency=medium
 
-  * Initial release
+  [ gregor herrmann ]
+  * debian/watch: use uscan version 4.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+  [ Debian Janitor ]
+  * Bump debhelper from old 10 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Bump debhelper from old 12 to 13.
+  * Update standards version to 4.1.5, no changes needed.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Mon, 21 Nov 2022 14:44:01 +0000
+
+libtest-mocktime-perl (0.17-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release.
+  * Declare compliance with Debian Policy 4.1.4.
+  * Remove debian/source/lintian-overrides.
+    The issue doesn't appear anymore.
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 07 Apr 2018 20:44:11 +0200
+
+libtest-mocktime-perl (0.16-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Salvatore Bonaccorso ]
+  * debian/control: Use HTTPS transport protocol for Vcs-Git URI
+
+  [ gregor herrmann ]
+  * debian/copyright: change Copyright-Format 1.0 URL to HTTPS.
+  * Remove Rene Mayorga from Uploaders. Thanks for your work!
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-* headers for switch to salsa.debian.org
+
+  [ gregor herrmann ]
+  * New upstream release.
+  * Update years of packaging copyright.
+  * Declare compliance with Debian Policy 4.1.3.
+  * Bump debhelper compatibility level to 10.
+  * Add lintian override for "timestamp in the future".
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 17 Mar 2018 20:36:23 +0100
+
+libtest-mocktime-perl (0.15-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-Browser URL to cgit web frontend
+
+  [ gregor herrmann ]
+  * New upstream release.
+  * Update years of packaging copyright.
+  * Mark package as autopkgtest-able.
+  * Declare compliance with Debian Policy 3.9.6.
+  * Bump debhelper compatibility level to 9.
+
+ -- gregor herrmann <gregoa@debian.org>  Fri, 04 Sep 2015 23:55:02 +0200
+
+libtest-mocktime-perl (0.13-1) unstable; urgency=low
+
+  * Team upload.
+
+  [ Tim Retout ]
+  * debian/copyright: Fix 'at your opinion' typo.
+
+  [ Rene Mayorga ]
+  * Email change: Rene Mayorga -> rmayorga@debian.org
+
+  [ Nathan Handler ]
+  * debian/watch: Update to ignore development releases.
+
+  [ Ansgar Burchardt ]
+  * Email change: Ansgar Burchardt -> ansgar@debian.org
+  * debian/control: Convert Vcs-* fields to Git.
+
+  [ Salvatore Bonaccorso ]
+  * Change search.cpan.org based URIs to metacpan.org based URIs
+
+  [ gregor herrmann ]
+  * New upstream release.
+  * Switch to "3.0 (quilt)" source format.
+  * Use dh(1) and debhelper 8.
+  * debian/copyright: switch formatting to Copyright-Format 1.0.
+  * Update short description.
+  * Declare compliance with Debian Policy 3.9.5.
+
+ -- gregor herrmann <gregoa@debian.org>  Tue, 12 Aug 2014 18:31:18 +0200
+
+libtest-mocktime-perl (0.09-1) unstable; urgency=low
+
+  [ Rene Mayorga ]
+  * New upstream release
+  * Add libtest-pod-perl to B-D-I
+  * add /me to uploaders
+
+  [ Ansgar Burchardt ]
+  * Remove fix_pod.diff patch (applied upstream), no more patches remain
+    + Remove quilt from debian/rules, debian/control
+    + Remove README.source
+
+ -- Rene Mayorga <rmayorga@debian.org.sv>  Mon, 07 Jul 2008 21:42:15 -0600
+
+libtest-mocktime-perl (0.07-1) unstable; urgency=low
+
+  * Initial Release (Closes: #488385)
+
+ -- Ansgar Burchardt <ansgar@43-1.org>  Sat, 28 Jun 2008 15:17:29 +0200
